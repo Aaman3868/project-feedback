@@ -56,7 +56,7 @@
     </div>
 </div>
 
-<!-- Optional Hover Effect -->
+
 <style>
     table tbody tr:hover {
         background-color: #f8f9fa;

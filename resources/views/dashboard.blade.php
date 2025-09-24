@@ -30,12 +30,10 @@
             </a>
         </div>
 
-        <!-- Add more cards here if needed -->
-        <!-- Example: Users, Feedbacks, Settings -->
+       
     </div>
 </div>
 
-<!-- Optional Hover Effect -->
 <style>
 .hover-scale:hover {
     transform: scale(1.03);
