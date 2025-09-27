@@ -3,19 +3,20 @@
 namespace App\Http\Controllers;
 
 use App\Models\Project;
-use Illuminate\Http\Request;
+use Illuminate\Http\Request; 
 use Illuminate\Support\Facades\Auth;
 
 class ProjectController extends Controller
 {
   public function index()
     {
-        $projects = Project::where('user_id', Auth::id())->get();
+        $id =  Auth::id();
+        $projects = Project::where('user_id',$id)->get();
         return view('projects.index', compact('projects'));
     }
 
     public function create()
-    {
+    { 
         return view('projects.create');
     }
 
